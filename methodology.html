@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>溯源 · 方法论</title>
+  <meta name="description" content="信息溯源的基本流程与常用工具">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">溯源</a>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="timeline.html">时间线</a>
+        <a href="cases.html">案例库</a>
+        <a href="methodology.html">方法论</a>
+        <a href="sources.html">资料与参考</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumbs">首页 / 方法论</div>
+    <section class="section">
+      <h1>方法论</h1>
+      <p class="lead">把“怀疑—收集—验证—记录—复核”作为标准流程。流程不是枷锁，而是护栏，让我们少走弯路，多做正确的事。</p>
+      <h2>基本流程</h2>
+      <ol>
+        <li>提出可证伪的假设；明确范围与成功标准。</li>
+        <li>收集一手证据优先，其次为可验证的二手资料。</li>
+        <li>验证：时间、地点、人物、来源、技术细节。</li>
+        <li>记录过程：保证可复现与可审计。</li>
+        <li>同行复核：让他人独立得出相同结论。</li>
+      </ol>
+
+      <h2>策略与心法</h2>
+      <p>溯源的关键不在工具，而在问题。用“最小可验证单元”分解叙事：不要问“事件是否属实”，先问“这张图是否在所称时间拍摄”。把一个大问题拆成三个小问题，成功率会显著提升。</p>
+      <p>其次是“负面证据”的利用：如果某条路径能必然产生某个迹象，但我们搜遍档案仍未见到这个迹象，那么该路径的概率就应降低。福尔摩斯提醒我们，狗不叫也是证据。</p>
+
+      <h2>常用工具</h2>
+      <ul>
+        <li>反向图片/视频搜索：Google、Yandex、TinEye</li>
+        <li>元数据提取：exiftool、MediaInfo</li>
+        <li>地理校验：Google Maps、OpenStreetMap、日照角度工具</li>
+        <li>档案与快照：Wayback Machine、Archive.today</li>
+      </ul>
+
+      <h2>从零到一：一个实践范式</h2>
+      <p>假设我们拿到一段“凌晨的告警视频”。先抽帧标注固定元素：路牌、店铺招牌、天空云层形态。接着检索招牌的字体特征与地区分布，将范围从全国缩小到几个城市。再用公共摄像头的路口布局比对形状，确定拍摄点附近的交叉口。</p>
+      <p>时间校验时，优先寻找“钟表”替代物：公交车发车频率、机场广播周期、配电站定时蜂鸣、电台整点报时。多条“钟表”的交集，能给出几乎唯一的时间窗口。最后，把过程写成可复现的文档，附上截图、链接与哈希。</p>
+      <p>在协作层面，建议采用“分层审稿”：一审关注事实与引用准确性；二审关注方法与可复现性；三审关注表达与可读性。每一轮都应记录修改历史与理由。这样不仅减少错误，也能帮助后来者学习思路。</p>
+
+      <h2>常见误区清单</h2>
+      <ul>
+        <li>把“看起来像”当成“就是”：缺乏排除法与反例搜集。</li>
+        <li>忽视采样偏差：只看到被转发的版本，没有寻找沉默的大多数。</li>
+        <li>时间对齐错误：混淆时区、夏令时或上传与拍摄的差异。</li>
+        <li>过度自信：未标注不确定性与误差范围。</li>
+        <li>缺少复现材料：没有存档、没有哈希、没有操作步骤。</li>
+      </ul>
+    </section>
+
+    <div class="pager">
+      <a href="cases.html">← 上一页：案例库</a>
+      <a href="sources.html">下一页：资料与参考 →</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><small>© 2025 溯源</small></div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
+
+
